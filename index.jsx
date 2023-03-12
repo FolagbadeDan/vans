@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom/client';
 import { BrowserRouter, Routes, Route, Link } from "react-router-dom"
 import Home from "./pages/Home"
 import About from "./pages/About"
-import Vans from './pages/Vans';
+import Vans from "./pages/Vans";
 
 function App() {
   return (
@@ -17,7 +17,7 @@ function App() {
         </nav>
       </header>
       <Routes>
-      <Route path="/vans" element={<Vans />} />
+      <Route path="/vans" element={<Vans/>} />
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<About />} />
       </Routes>
